@@ -1,0 +1,6 @@
+com/main/TaskStatus.class
+com/main/TaskRepository.class
+com/servlet/TaskServlet.class
+com/main/TaskManager.class
+com/main/Task.class
+com/main/TaskDataBaseRepository.class
