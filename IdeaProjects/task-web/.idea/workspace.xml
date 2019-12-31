@@ -30,7 +30,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task_app" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -63,6 +63,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577787738440">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577787738440" />
     <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1577711294086">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -83,5 +87,9 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/0.27.1366.741@0.27.1366.741" timestamp="1577705664838" />
+    <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577766098213">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1577766098213" />
   </component>
 </project>

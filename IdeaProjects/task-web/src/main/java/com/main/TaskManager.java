@@ -1,5 +1,7 @@
 package com.main;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 public class TaskManager {
@@ -10,8 +12,19 @@ public class TaskManager {
     TaskDataBaseRepository repository = new TaskDataBaseRepository();
     Random random = new Random();
 
-    public void addTask(String taskName, String description, Date dueDate, TaskStatus status) {
-        repository.addTask(taskName, description, dueDate, status, random.nextInt(100000));
+    public void addTask(String taskName, String description, String dueDate, String status) throws ParseException {
+        repository.addTask(taskName, description, toDate(dueDate), toStatus(status), random.nextInt(100000));
+    }
+
+    TaskStatus toStatus(String st)
+    {
+        TaskStatus status = TaskStatus.valueOf(st);
+        return  status;
+    }
+
+    Date toDate(String date) throws ParseException {
+        Date dt = new SimpleDateFormat("dd/MM/yyyy").parse(date);
+        return dt;
     }
 
     public List<Task> listTasks() {
