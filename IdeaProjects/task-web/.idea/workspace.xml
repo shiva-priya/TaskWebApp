@@ -30,12 +30,33 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../task_app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/main" />
       <recent name="$PROJECT_DIR$/src/main/java/com/wavemaker" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="TaskMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.main.TaskMain" />
+      <module name="task-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.TaskMain" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -63,33 +84,41 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577787738440">
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser" timestamp="1577950165371">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577787738440" />
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom" timestamp="1577711294086">
+    <state x="491" y="109" width="374" height="575" key="#com.intellij.ide.util.MemberChooser/0.27.1366.741@0.27.1366.741" timestamp="1577950165371" />
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577946713504">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577711294086" />
-    <state width="1320" height="175" key="GridCell.Tab.0.center" timestamp="1577711294085">
+    <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577946713504" />
+    <state width="1320" height="149" key="GridCell.Tab.0.bottom" timestamp="1577951238885">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577711294085" />
-    <state width="1320" height="175" key="GridCell.Tab.0.left" timestamp="1577711294084">
+    <state width="1320" height="149" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577951238885" />
+    <state width="1320" height="149" key="GridCell.Tab.0.center" timestamp="1577951238882">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577711294084" />
-    <state width="1320" height="175" key="GridCell.Tab.0.right" timestamp="1577711294086">
+    <state width="1320" height="149" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577951238882" />
+    <state width="1320" height="149" key="GridCell.Tab.0.left" timestamp="1577951238881">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="175" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577711294086" />
-    <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1577705664838">
+    <state width="1320" height="149" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577951238881" />
+    <state width="1320" height="149" key="GridCell.Tab.0.right" timestamp="1577951238883">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/0.27.1366.741@0.27.1366.741" timestamp="1577705664838" />
+    <state width="1320" height="149" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577951238883" />
+    <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1577945102682">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/0.27.1366.741@0.27.1366.741" timestamp="1577945102682" />
     <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577766098213">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1577766098213" />
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1577939096321">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1577939096321" />
   </component>
 </project>

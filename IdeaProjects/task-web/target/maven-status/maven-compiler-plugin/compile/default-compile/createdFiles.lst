@@ -1,6 +1,11 @@
 com/main/TaskStatus.class
-com/main/TaskRepository.class
-com/servlet/TaskServlet.class
-com/main/TaskManager.class
 com/main/Task.class
 com/main/TaskDataBaseRepository.class
+com/main/TaskList.class
+com/main/TaskMain.class
+com/main/TaskRepository.class
+com/main/IdServlet.class
+com/main/TaskManager.class
+com/main/TaskFileRepository.class
+com/main/TaskServlet.class
+com/main/InMemoryTaskRepository.class

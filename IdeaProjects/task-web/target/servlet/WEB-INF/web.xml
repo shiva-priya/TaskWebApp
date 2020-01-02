@@ -11,13 +11,24 @@
     <description></description>
     <display-name>HelloWorld</display-name>
     <servlet-name>TaskServlet</servlet-name>
-    <servlet-class>com.servlet.TaskServlet</servlet-class>
+    <servlet-class>com.main.TaskServlet</servlet-class>
   </servlet>
 
+  <servlet>
+    <description></description>
+    <display-name>IdServlet</display-name>
+    <servlet-name>IdServlet</servlet-name>
+    <servlet-class>com.main.IdServlet</servlet-class>
+  </servlet>
 
   <servlet-mapping>
     <servlet-name>TaskServlet</servlet-name>
     <url-pattern>/getTasks</url-pattern>
+  </servlet-mapping>
+
+  <servlet-mapping>
+    <servlet-name>IdServlet</servlet-name>
+    <url-pattern>/Id</url-pattern>
   </servlet-mapping>
 
 

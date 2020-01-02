@@ -13,18 +13,18 @@ public class TaskDataBaseRepository implements TaskRepository {
 
 
     public TaskDataBaseRepository() {
-        System.out.println("ENtered COnstructor");
+       // System.out.println("ENtered COnstructor");
         establishConnection();
     }
 
     public void establishConnection() {
-        System.out.println("Establishing-Connection");
+       // System.out.println("Establishing-Connection");
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/taskdb", "taskuser", "taskuser");
-            System.out.println("ConnectionObj"+con);
+         //   System.out.println("ConnectionObj"+con);
             stmt = con.createStatement();
-            System.out.println("StatementObj"+stmt);
+         //   System.out.println("StatementObj"+stmt);
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -49,7 +49,7 @@ public class TaskDataBaseRepository implements TaskRepository {
         try {
             System.out.println("Gone!");
             if(stmt == null){
-                System.out.println("Statement obj is null");
+           //     System.out.println("Statement obj is null");
             }
             ResultSet rs = stmt.executeQuery("select * from task");
             while (rs.next())
@@ -114,7 +114,7 @@ public class TaskDataBaseRepository implements TaskRepository {
         if(tasks.size()<=0)
             return null;
         else
-        return tasks;
+            return tasks;
     }
 
     @Override
@@ -181,6 +181,11 @@ public class TaskDataBaseRepository implements TaskRepository {
             e.printStackTrace();
         }
         return 0;
+    }
+
+    @Override
+    public Task updateFullTask(String taskName, String description, Date dueDate, TaskStatus status, int id) throws SQLException {
+        return null;
     }
 
     public int getTotalTasks() {

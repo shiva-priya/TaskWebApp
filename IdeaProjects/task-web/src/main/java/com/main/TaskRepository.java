@@ -15,5 +15,7 @@ public interface TaskRepository {
     public List<Task> getPendingTasks();
     public List<Task> getTodayTasks();
     public int updateTask(String task, TaskStatus status);
+    public Task updateFullTask(String taskName, String description, Date dueDate, TaskStatus status,int id) throws SQLException;
+
 
 }

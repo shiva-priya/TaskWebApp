@@ -16,17 +16,6 @@ public class TaskManager {
         repository.addTask(taskName, description, toDate(dueDate), toStatus(status), random.nextInt(100000));
     }
 
-    TaskStatus toStatus(String st)
-    {
-        TaskStatus status = TaskStatus.valueOf(st);
-        return  status;
-    }
-
-    Date toDate(String date) throws ParseException {
-        Date dt = new SimpleDateFormat("dd/MM/yyyy").parse(date);
-        return dt;
-    }
-
     public List<Task> listTasks() {
         return repository.listTasks();
     }
@@ -56,14 +45,26 @@ public class TaskManager {
         return repository.getTodayTasks();
     }
 
-    public int updateTask(String task, TaskStatus status) {
-        return repository.updateTask(task, status);
+    public int updateTask(String task, String status) {
+        return repository.updateTask(task, toStatus(status));
     }
 
 
     public int getTaskCount() {
         return 0;
     }
+
+    TaskStatus toStatus(String st)
+    {
+        TaskStatus status = TaskStatus.valueOf(st);
+        return  status;
+    }
+
+    Date toDate(String date) throws ParseException {
+        Date dt = new SimpleDateFormat("dd/MM/yyyy").parse(date);
+        return dt;
+    }
+
 
 
 }

@@ -1,8 +1,5 @@
-package com.servlet;
+package com.main;
 
-import com.main.Task;
-import com.main.TaskDataBaseRepository;
-import com.main.TaskManager;
 import org.json.JSONArray;
 
 import javax.servlet.ServletException;
@@ -17,12 +14,13 @@ import java.util.List;
 
 public class TaskServlet extends HttpServlet {
 
-    public TaskServlet(){}
+    public TaskServlet() {
+    }
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         PrintWriter out = resp.getWriter();
-        System.out.println("Instantiating TaskDBR");
+       // System.out.println("Instantiating TaskDBR");
         TaskDataBaseRepository db = new TaskDataBaseRepository();
         List<Task> output = new ArrayList();
         output = db.listTasks();
@@ -38,8 +36,10 @@ public class TaskServlet extends HttpServlet {
         String desc = req.getParameter("desc");
         String date = req.getParameter("date");
         String status = req.getParameter("status");
+
         try {
-            tm.addTask(name,desc,date,status);
+            tm.addTask(name, desc, date, status);
+            resp.setStatus(201);
         } catch (ParseException e) {
             e.printStackTrace();
         }
