@@ -54,17 +54,15 @@ public class TaskManager {
         return 0;
     }
 
-    TaskStatus toStatus(String st)
-    {
+    TaskStatus toStatus(String st) {
         TaskStatus status = TaskStatus.valueOf(st);
-        return  status;
+        return status;
     }
 
     Date toDate(String date) throws ParseException {
         Date dt = new SimpleDateFormat("dd/MM/yyyy").parse(date);
         return dt;
     }
-
 
 
 }

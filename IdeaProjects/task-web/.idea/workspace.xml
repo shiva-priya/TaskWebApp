@@ -31,6 +31,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -92,33 +93,37 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="154" width="424" height="484" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1577946713504" />
-    <state width="1320" height="149" key="GridCell.Tab.0.bottom" timestamp="1577951238885">
+    <state width="1320" height="149" key="GridCell.Tab.0.bottom" timestamp="1577970072588">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="149" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577951238885" />
-    <state width="1320" height="149" key="GridCell.Tab.0.center" timestamp="1577951238882">
+    <state width="1320" height="149" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1577970072588" />
+    <state width="1320" height="149" key="GridCell.Tab.0.center" timestamp="1577970072588">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="149" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577951238882" />
-    <state width="1320" height="149" key="GridCell.Tab.0.left" timestamp="1577951238881">
+    <state width="1320" height="149" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1577970072588" />
+    <state width="1320" height="149" key="GridCell.Tab.0.left" timestamp="1577970072587">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="149" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577951238881" />
-    <state width="1320" height="149" key="GridCell.Tab.0.right" timestamp="1577951238883">
+    <state width="1320" height="149" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1577970072587" />
+    <state width="1320" height="149" key="GridCell.Tab.0.right" timestamp="1577970072588">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state width="1320" height="149" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577951238883" />
+    <state width="1320" height="149" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1577970072588" />
     <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog" timestamp="1577945102682">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="216" y="54" width="924" height="684" key="Maven.ArtifactSearchDialog/0.27.1366.741@0.27.1366.741" timestamp="1577945102682" />
+    <state x="172" y="31" key="SettingsEditor" timestamp="1577958597337">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="172" y="31" key="SettingsEditor/0.27.1366.741@0.27.1366.741" timestamp="1577958597337" />
     <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1577766098213">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="100" y="125" width="1166" height="543" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.27.1366.741@0.27.1366.741" timestamp="1577766098213" />
-    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1577939096321">
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog" timestamp="1578036271462">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1577939096321" />
+    <state x="339" y="224" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1578036271462" />
   </component>
 </project>

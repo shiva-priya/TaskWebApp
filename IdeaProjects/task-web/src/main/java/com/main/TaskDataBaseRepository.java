@@ -13,18 +13,18 @@ public class TaskDataBaseRepository implements TaskRepository {
 
 
     public TaskDataBaseRepository() {
-       // System.out.println("ENtered COnstructor");
+        // System.out.println("ENtered COnstructor");
         establishConnection();
     }
 
     public void establishConnection() {
-       // System.out.println("Establishing-Connection");
+        // System.out.println("Establishing-Connection");
         try {
             Class.forName("com.mysql.jdbc.Driver");
             con = DriverManager.getConnection("jdbc:mysql://localhost:3306/taskdb", "taskuser", "taskuser");
-         //   System.out.println("ConnectionObj"+con);
+            //   System.out.println("ConnectionObj"+con);
             stmt = con.createStatement();
-         //   System.out.println("StatementObj"+stmt);
+            //   System.out.println("StatementObj"+stmt);
         } catch (SQLException | ClassNotFoundException e) {
             e.printStackTrace();
         }
@@ -48,8 +48,8 @@ public class TaskDataBaseRepository implements TaskRepository {
         List<Task> tasks = new ArrayList<Task>();
         try {
             System.out.println("Gone!");
-            if(stmt == null){
-           //     System.out.println("Statement obj is null");
+            if (stmt == null) {
+                //     System.out.println("Statement obj is null");
             }
             ResultSet rs = stmt.executeQuery("select * from task");
             while (rs.next())
@@ -98,20 +98,20 @@ public class TaskDataBaseRepository implements TaskRepository {
 
     @Override
     public List<Task> listByStatus(String status) {
-        List<Task> tasks=new ArrayList<Task>();
-        try{
+        List<Task> tasks = new ArrayList<Task>();
+        try {
             Statement stmt = con.createStatement();
-            ResultSet rs=stmt.executeQuery("select * from task where status='"+status+"'");
-            while(rs.next()){
-                Task task=new Task();
-                task=createTask(rs);
+            ResultSet rs = stmt.executeQuery("select * from task where status='" + status + "'");
+            while (rs.next()) {
+                Task task = new Task();
+                task = createTask(rs);
                 tasks.add(task);
             }
 
-        }catch(SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
-        if(tasks.size()<=0)
+        if (tasks.size() <= 0)
             return null;
         else
             return tasks;
